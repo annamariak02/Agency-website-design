@@ -128,6 +128,12 @@ a {
 .y-c{
     align-items: center;
 }
+.m2{
+    padding: 4em 0 2em;
+}
+.btn-group{
+    margin: 2em 0;
+}
 .btn{
     padding: 8px 32px;
     color: rgb(22, 22, 22);
@@ -139,6 +145,10 @@ a {
     font-weight: 500;
     line-height: 41px;
     margin-right: 1em;
+}
+.btn-outline{
+    border: 2px solid rgb(22, 22, 22);
+    font-weight: 500;
 }
 .btn-play{
     align-items: center;
@@ -154,6 +164,9 @@ a {
 /*main styles*/
 #logo {
     margin: 0;
+}
+.hero{
+    background: linear-gradient(90deg, #00c9ff30 0%, #92fe9d75 100%);
 }
 nav a {
     margin: 0 1em ;
