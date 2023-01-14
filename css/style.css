@@ -158,6 +158,17 @@ a {
     height: 40px;
     margin: 0 1em;
 }
+.txt-box{
+  padding: 10px;
+  margin-right: 1em;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255, 0.4) ;
+}
+.icon{
+  height: 20px;
+  margin-right: 10px;
+}
 /*END global styles*/
 
 
@@ -198,5 +209,56 @@ grid-row-gap: 0px;
 .image-mask{
     background: url(/assets/images/auto.jpg) 50% 0%;
     background-size: cover;
+}
+.avatar{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.smaller{
+  font-size: x-small;
+}
+#time{
+  font-size: x-small;
+}
+.hero-footer h6{
+  margin: 0;
+}
+#tekst{
+  margin-right: 15px;
+}
+.second{
+  background-color: #00c9ff30;
+}
+.third{
+  background: linear-gradient(90deg, #00c9ff30 0%, #92fe9d75 100%);
+}
+.hero-copy2{
+  display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.hero-copy2 hr{
+  width: 20px;
+  margin-right: 0.3em;
+  height: 4px;
+  background-color: #333;
+  margin-left: 0;
+}
+.hero-copy2 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-copy2 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients h6{
+  margin: 0;
 }
 /*END main styles*/
