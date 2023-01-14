@@ -167,7 +167,12 @@ a {
 }
 .icon{
   height: 20px;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.logo{
+  height: 40px;
+  margin: 0 30px;
 }
 /*END global styles*/
 
@@ -261,4 +266,25 @@ grid-row-gap: 0px;
 .clients h6{
   margin: 0;
 }
+.footer{
+  display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+background-color: #92fe9d75;
+}
+#email{
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+}
+#l{
+  font-size: x-small;
+  opacity: 0.3;
+}
+.footer hr{
+  margin: 50px 0;
+}
+
 /*END main styles*/
