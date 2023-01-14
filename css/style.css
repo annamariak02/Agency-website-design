@@ -174,6 +174,16 @@ a {
   height: 40px;
   margin: 0 30px;
 }
+.x-c{
+  justify-content: center;
+}
+.txt-box2{
+padding: 0;
+padding: 10px;
+border: 2px solid white;
+border-radius: 15px;
+background-color: rgb(255, 255, 255, 0.4) ;
+}
 /*END global styles*/
 
 
@@ -286,5 +296,14 @@ background-color: #92fe9d75;
 .footer hr{
   margin: 50px 0;
 }
-
+.dot{
+  border-radius: 50%;
+  background-color: rgb(201, 101, 201);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.txt-box h6{
+  margin: 0;
+}
 /*END main styles*/
