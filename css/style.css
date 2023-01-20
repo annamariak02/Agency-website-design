@@ -178,11 +178,15 @@ a {
   justify-content: center;
 }
 .txt-box2{
-padding: 0;
-padding: 10px;
+padding: 20px;
 border: 2px solid white;
 border-radius: 15px;
-background-color: rgb(255, 255, 255, 0.4) ;
+background-color: rgb(255, 255, 255, 0.4);
+width: max-content;
+}
+.txt-box2 h6 {
+  font-size: large;
+  margin: 0;
 }
 /*END global styles*/
 
@@ -288,6 +292,7 @@ background-color: #92fe9d75;
   border-radius: 20px;
   border: none;
   margin-right: 10px;
+  padding-left: 10px;
 }
 #l{
   font-size: x-small;
@@ -298,12 +303,37 @@ background-color: #92fe9d75;
 }
 .dot{
   border-radius: 50%;
-  background-color: rgb(201, 101, 201);
-  width: 100px;
-  height: 100px;
+  background-color: rgba(247, 10, 247, 0.904);
+  width: 150px;
+  height: 150px;
   display: inline-block;
 }
 .txt-box h6{
+  margin: 0;
+}
+.parent{
+  position: relative;
+}
+#esimene{
+  position: absolute;
+  top: 100px;
+}
+#teine{
+  position: absolute;
+  left: 150px;
+}
+#kolmas{
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  z-index: -1;
+}
+#neljas{
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+#neljas h6{
   margin: 0;
 }
 /*END main styles*/
